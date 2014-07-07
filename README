@@ -1,13 +1,26 @@
 ColdCrypto Generator
+==========
+
 This project is a very simple fork of bitaddress.org paper wallet generation software.
-Please send all DONATIONS to pointbiz of bitaddress.org: 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
-ColdCrypto Generator changes very little to keep full functionality of bitaddress.org whilst allowing for the easy addition of coldcrypto wallet deisgns. The vast majority of the code, including the pseudorandom key generation, is identical to that used in bitaddress.org software.
 
+Please send all DONATIONS to pointbiz of bitaddress.org: 
+1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+
+ColdCrypto Generator changes very little to keep full functionality of bitaddress.org whilst allowing for the easy addition of coldcrypto wallet deisgns.
+The vast majority of the code, including the pseudorandom key generation, is identical to that used in bitaddress.org software.
+
+***
 Notable changes:
+
 All default wallet designs have been removed.
+
 Base-64 encoded image is no longer stored within the main .html. The code now looks for a base-64 encoded image within the src directory.
+
 Peramiters for the placement of keys and QR codes have been changed so that they align correctly with the ColdCrypto designs.
+***
 
-Please NEVER gernerate or print keys you intend to use whilst connected to the internet. Preferably only generate and print keys after booting from a clean OS live CD/USB.
+Please NEVER gernerate or print keys you intend to use whilst connected to the internet.
+Preferably only generate and print keys after booting from a clean OS live CD/USB.
+
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
